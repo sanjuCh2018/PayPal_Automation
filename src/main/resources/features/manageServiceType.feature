@@ -1,17 +1,6 @@
-Feature: Verify the MRH application web page title
+Feature: Verify the Pay Pal getway with invalid credentials
 
-  @automated @sanity
-  Scenario: Verify the MRH application web page title
-    Given I launch the MRH application welcome page
-    When I navigated to Manage Service Types page
-    Then I get the all service list
-      | DERMATOLOGY                    |
-      | DERMATOLOGY_NEW_PATIENT        |
-      | GENERAL_MEDICINE               |
-      | GENERAL_MEDICINE_NEW_PATIENT   |
-      | GYNECOLOGY                     |
-      | GYNECOLOGY_NEW_PATIENT         |
-      | INFECTIOUS_DISEASE             |
-      | INFECTIOUS_DISEASE_NEW_PATIENT |
-      | MENTAL_HEALTH                  |
-      | MENTAL_HEALTH_NEW_PATIENT      |
+  @automated @Feature @sanity
+  Scenario: Verify the Pay Pal login credentials
+    Given I enter valid email stuti.chourasia@gmail.com and valid password hello@1234
+    Then I find the Pay Pal account holder

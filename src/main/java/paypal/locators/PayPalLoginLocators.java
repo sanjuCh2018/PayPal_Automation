@@ -1,6 +1,6 @@
-package e2e.locators;
+package paypal.locators;
 
-public class OpenMRSLoginLocators {
+public class PayPalLoginLocators {
 
     //By ID#email1
     public static final String LOGIN_LINK = "#ul-btn";

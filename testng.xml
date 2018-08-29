@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="e2e.testrunner.TestRunnerMRS"/>
+      <class name="paypal.testrunner.TestRunnerMRS"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

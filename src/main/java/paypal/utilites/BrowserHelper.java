@@ -1,4 +1,4 @@
-package e2e.utilites;
+package paypal.utilites;
 
 
 import org.openqa.selenium.WebDriver;

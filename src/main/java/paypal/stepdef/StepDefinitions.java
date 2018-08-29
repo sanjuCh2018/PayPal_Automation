@@ -1,4 +1,4 @@
-package e2e.stepdef;
+package paypal.stepdef;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;

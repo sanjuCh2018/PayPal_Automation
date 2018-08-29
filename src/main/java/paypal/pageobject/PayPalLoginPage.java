@@ -1,8 +1,7 @@
-package e2e.pageobject;
+package paypal.pageobject;
 
 
-import e2e.locators.OpenMRSLoginLocators;
-import e2e.utilites.GenericHelper;
+import paypal.locators.PayPalLoginLocators;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -23,51 +22,51 @@ public class PayPalLoginPage{
         logger = Logger.getLogger("OpenMRSLoginPage");
         PropertyConfigurator.configure("log4j.properties");
     }
-    @FindBy(css = OpenMRSLoginLocators.NEXT_BTN)
+    @FindBy(css = PayPalLoginLocators.NEXT_BTN)
     private WebElement nextBtn;
 
-    @FindBy(css = OpenMRSLoginLocators.EMAIL_ID)
+    @FindBy(css = PayPalLoginLocators.EMAIL_ID)
     private WebElement emailTextField;
 
-    @FindBy(css = OpenMRSLoginLocators.PASSWORD)
+    @FindBy(css = PayPalLoginLocators.PASSWORD)
     private WebElement passwordTextField;
 
-    @FindBy(css = OpenMRSLoginLocators.LOG_IN_BUTTON)
+    @FindBy(css = PayPalLoginLocators.LOG_IN_BUTTON)
     private WebElement signInButton;
 
-    @FindBy(xpath = OpenMRSLoginLocators.ACCOUNT_HOLDER)
+    @FindBy(xpath = PayPalLoginLocators.ACCOUNT_HOLDER)
     private WebElement accountHolderLink;
 
-    @FindBy(xpath = OpenMRSLoginLocators.IWard)
+    @FindBy(xpath = PayPalLoginLocators.IWard)
     private WebElement iward;
 
 
 
-    @FindBy(css = OpenMRSLoginLocators.APPOINTMENTS)
+    @FindBy(css = PayPalLoginLocators.APPOINTMENTS)
     private WebElement app;
 
-    @FindBy(xpath = OpenMRSLoginLocators.APPOINTMENT_SCHEDULE_LINK)
+    @FindBy(xpath = PayPalLoginLocators.APPOINTMENT_SCHEDULE_LINK)
     private WebElement appointmentSchedule;
 
-    @FindBy(xpath = OpenMRSLoginLocators.MANAGE_SERVICE_TYPE)
+    @FindBy(xpath = PayPalLoginLocators.MANAGE_SERVICE_TYPE)
     private WebElement manageServiceType;
 
-    @FindBy(xpath = OpenMRSLoginLocators.APPOINTMENT_TYPE)
+    @FindBy(xpath = PayPalLoginLocators.APPOINTMENT_TYPE)
     private WebElement appType;
 
-    @FindBy(css = OpenMRSLoginLocators.EDIT)
+    @FindBy(css = PayPalLoginLocators.EDIT)
     private WebElement edit;
 
-    @FindBy(xpath = OpenMRSLoginLocators.APP_TYPE_LIST)
+    @FindBy(xpath = PayPalLoginLocators.APP_TYPE_LIST)
     private List<WebElement> appTypeList;
 
-    @FindBy(xpath = OpenMRSLoginLocators.MST_TYPE)
+    @FindBy(xpath = PayPalLoginLocators.MST_TYPE)
     private List<WebElement> mstTypeList;
 
-    @FindBy(xpath = OpenMRSLoginLocators.MST_DURATION)
+    @FindBy(xpath = PayPalLoginLocators.MST_DURATION)
     private List<WebElement> mstDurationList;
 
-    @FindBy(xpath = OpenMRSLoginLocators.MANAGE_SERVICE_TYPE_NAME)
+    @FindBy(xpath = PayPalLoginLocators.MANAGE_SERVICE_TYPE_NAME)
     private List<WebElement> manageServiceTypeName;
 
     public List<WebElement> getListApp() {

@@ -1,11 +1,11 @@
-package e2e.MasterFile;
+package paypal.MasterFile;
 
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import e2e.pageobject.PayPalLoginPage;
-import e2e.utilites.GenericHelper;
+import paypal.pageobject.PayPalLoginPage;
+import paypal.utilites.GenericHelper;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;

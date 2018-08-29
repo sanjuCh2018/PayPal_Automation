@@ -1,4 +1,4 @@
-package e2e.MasterFile;
+package paypal.MasterFile;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
@@ -22,6 +22,5 @@ public class ConfigFileReader {
 			throw new RuntimeException("Failed to initialize/load .property file: " + ex.getMessage());
 		}
 		return desiredValue;
-
 	}
-}//C:\SeleniumAutomation\E2EAutomationGitJenkins\src\main\resources\Configuration\config.properties
+}

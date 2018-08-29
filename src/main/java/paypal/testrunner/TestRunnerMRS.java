@@ -1,4 +1,4 @@
-package e2e.testrunner;
+package paypal.testrunner;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;

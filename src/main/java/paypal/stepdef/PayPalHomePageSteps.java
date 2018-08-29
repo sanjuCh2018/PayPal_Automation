@@ -1,15 +1,14 @@
-package e2e.stepdef;
+package paypal.stepdef;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import e2e.MasterFile.Base;
-import e2e.pageobject.PayPalLoginPage;
-import e2e.utilites.BrowserHelper;
+import paypal.MasterFile.Base;
+import paypal.pageobject.PayPalLoginPage;
+import paypal.utilites.BrowserHelper;
 import org.assertj.core.api.SoftAssertions;
 import org.junit.Assert;
 import org.openqa.selenium.OutputType;
