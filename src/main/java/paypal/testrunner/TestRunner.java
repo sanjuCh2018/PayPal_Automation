@@ -15,6 +15,6 @@ import org.testng.annotations.*;
 
 
 @Test
-public class TestRunnerMRS extends AbstractTestNGCucumberTests {
+public class TestRunner extends AbstractTestNGCucumberTests {
 
 }

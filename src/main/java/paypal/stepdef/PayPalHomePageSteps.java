@@ -42,17 +42,10 @@ public class PayPalHomePageSteps extends Base{
         Assert.assertEquals(title,"PayPal: Summary");
     }
 
-    @When("^I navigated to Manage Service Types page$")
-    public void iNavigatedToManageServiceTypesPage() throws Throwable {
-
-        payPalLoginPage.navigateManageServiceTypeWindow();
-    }
-
     @When("^I find the Pay Pal account holder$")
     public void iFindThePayPalAccountHolder() {
         Assert.assertEquals(payPalLoginPage.getTextData(),"Welcome, Stuti!");
     }
-
 
     @Before
     public void startApp() throws Exception {
